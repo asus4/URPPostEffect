@@ -255,9 +255,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _effects:
-  - enabled: 1
+  - enabled: 0
     mode: 0
     material: {fileID: 2100000, guid: 7918eaf4c58cf4b31b11356b9e64abb2, type: 2}
+    customEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - enabled: 1
+    mode: 0
+    material: {fileID: 2100000, guid: 6110889506e4f46f79f67dfc8091b1a4, type: 2}
     customEvent:
       m_PersistentCalls:
         m_Calls: []
